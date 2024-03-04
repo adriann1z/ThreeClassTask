@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Three_Class_Task
 {
-    class Dice
+    class Die
     {
         private int currentValue = 0; //Property to hold the current value of the dice
 
