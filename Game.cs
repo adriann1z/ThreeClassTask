@@ -9,13 +9,13 @@ namespace Three_Class_Task
 {
     class Game
     {
-        Dice[] dices = new Dice[3]; //Array to hold three dice objects
+        Die[] dices = new Die[3]; //Array to hold three dice objects
 
         public void RollDices() //Method to create three dice objects
         {
             for (int i = 0; i < 3; i++) //Loops through the array 3 times
             {
-                dices[i] = new Dice(); //Creates three dice objects and stores them in the dices array at positions 0, 1 and 2
+                dices[i] = new Die(); //Creates three dice objects and stores them in the dices array at positions 0, 1 and 2
             }
         }
 
