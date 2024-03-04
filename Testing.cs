@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Three_Class_Task
 {
-    internal class Testing
+    class Testing
     {
     }
 }
